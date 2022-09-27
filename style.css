@@ -25,11 +25,11 @@ header {
     height: 130px;
     min-width: 320px;
     max-width: 1000px;
-    padding: 10px;
     background-image: linear-gradient(to bottom, #000000, #101010, #202020);
     margin: auto;
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.400);
     border-radius: 10px;
+    padding: 10px;
 }
 
 header h1 {
@@ -55,16 +55,16 @@ header p {
 
 main {
     background-color: white;
-    min-width: 320px;
-    max-width: 1000px;
-    padding: 10px;
     box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.400);
     border-radius: 10px;
     margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+    padding: 10px;
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 nav a {
@@ -85,7 +85,7 @@ nav a:hover {
 }
 
 section h1, h2 {
-    margin-bottom: 10px;
+    margin-top: 10px;
     background-color: #4b0000;
     color: white;
     padding: 2px;
@@ -94,10 +94,19 @@ section h1, h2 {
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.400);
 }
 
+.sc {
+    margin-bottom: 10px;
+}
+
+section h1 {
+    margin: 0px;
+}
+
 section p {
 font-size: 1.1em;
 text-align: justify;
 margin: 10px;
+line-height: 24px;
 }
 
 .lista01 {
@@ -108,7 +117,7 @@ margin: 10px;
 .lista01 li img {
     width: 50%;
     margin: auto;
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 .lista02 {
@@ -125,9 +134,9 @@ footer {
     text-align: center;
     background-image: linear-gradient(to bottom, #000000, #101010, #202020);
     color: white;
-    padding: 10px;
+    padding: 5px 10px;
     font-size: .8em;
-    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.400);
+    box-shadow: 0px 3px 4px 2px rgba(0, 0, 0, 0.400);
     border-radius: 10px;
     min-width: 320px;
     max-width: 1000px;
